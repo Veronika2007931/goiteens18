@@ -18,18 +18,19 @@
    }
 
    @media screen and (min-width: $desktop){
+      // display: flex;
     justify-content: space-between;
     }
    }
 
-   .features-item{
+   .fetures-item{
       @media screen and (min-width: $tablet){
          margin: 15px;
          width: calc((100% - 60px) / 2);
       }
      
    }
-   .features-item:not(:last-child){
+   .fetures-item:not(:last-child){
      @media screen and (max-width: 767px){
      margin-bottom: 30px;
      }
@@ -37,22 +38,26 @@
     
 
 
-.features-icon{
+.fetures-icon{
    width: 70px;
    height: 70px;
 }
 
 .icon-box{
-   margin-bottom: 30px;
    background-color: #F5F4FA;
+   margin-bottom: 30px;
    display: flex;
    justify-content: center;
    align-items: center;
+   border-radius: 4px;
    height: 120px;
-  border-radius: 4px;
+  
+   
+   
+  
 }
 
-.features-title{
+.fetures-title{
    text-align: center;
    font-weight: 700;
    font-size: 14px;
@@ -62,7 +67,7 @@
    margin-bottom: 10px;
 }
 
-.feature-text{
+.feture-text{
    font-weight: 400;
 font-size: 14px;
 line-height: 24px;
