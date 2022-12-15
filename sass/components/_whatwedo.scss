@@ -42,17 +42,4 @@
    
 }
 
-.team{
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
-}
 
-.team-members{
-    width: calc((100% - 30px * 4) / 4) ;
-    margin: 15px;
-}
-.team-members img{
-    height: 260px;
-    width: 270px;
-}
