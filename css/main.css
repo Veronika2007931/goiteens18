@@ -52,21 +52,6 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-@media screen and (min-width: 480px) {
-  .section, .footer, .our-team, .hero, .header {
-    width: 480px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .section, .footer, .our-team, .hero, .header {
-    width: 768px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .section, .footer, .our-team, .hero, .header {
-    width: 1200px;
-  }
-}
 
 .container, .nav {
   width: 100%;
@@ -74,6 +59,21 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 480px) {
+  .container, .nav {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container, .nav {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container, .nav {
+    width: 1200px;
+  }
 }
 
 title {
@@ -183,7 +183,6 @@ nav {
 }
 
 section {
-  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -447,11 +446,6 @@ section {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .fetures-item:not(:last-child) {
-    margin-left: 30px;
-  }
-}
 
 .fetures-icon {
   width: 70px;
@@ -565,12 +559,6 @@ section {
       flex-wrap: wrap;
 }
 
-@media screen and (min-width: 480px) {
-  .team-members:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
-
 .team-members {
   border-radius: 0px 0px 4px 4px;
   margin: 15px;
@@ -591,25 +579,9 @@ section {
 }
 
 .team-card {
+  padding: 30px 32px;
   text-align: center;
   background-color: var(--thirdly-text-color);
-}
-@media screen and (min-width: 480px) {
-  .team-card {
-    padding-top: 30px;
-    padding-bottom: 24px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .team-card {
-    padding-top: 33px;
-    padding-bottom: 24px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team-card {
-    padding: 30px 32px;
-  }
 }
 
 .name {

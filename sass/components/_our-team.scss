@@ -25,12 +25,7 @@
     // margin: -15px;
 }
 
-.team-members:not(:last-child){
-    @media screen and (min-width: $mobile){
 
-       margin-bottom: 30px;
-     } 
-}
 .team-members{
     border-radius: 0px 0px 4px 4px;
     margin: 15px;
@@ -40,8 +35,6 @@
     }
 
     @media screen and (min-width: $desktop){
-        // width: 270px;
-        // height: 428px;
         flex-basis: calc((100% - 30px * 4) / 4);
     }
    
@@ -50,20 +43,10 @@
 }
 
 .team-card{
+    padding: 30px 32px;
     text-align: center;
     background-color: var(--thirdly-text-color);
-    @media screen and (min-width: $mobile){
-        padding-top: 30px;
-       padding-bottom: 24px; 
-      
-      } 
-    @media screen and (min-width: $tablet){
-       padding-top: 33px;
-       padding-bottom: 24px; 
-    }
-    @media screen and (min-width: $desktop){
-        padding: 30px 32px;
-    }
+    
 }
 
 
